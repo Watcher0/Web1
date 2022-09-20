@@ -1,0 +1,138 @@
+body{
+  color: rgba(240, 255, 255, 0.877);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+div {
+  padding: 5px 15px;
+}
+
+main div{
+  padding: 10px 10px;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+.Yinput{
+  border: 1px solid antiquewhite;
+  background-color: rgba(250, 235, 215, 0.512);
+  margin-top: 130px;
+  width: 180px;
+  height: 185px;
+  text-align: center;
+  float: right;
+}
+
+input{
+  background-color: rgba(0, 0, 0, 0.712);
+  accent-color:rgba(0, 0, 0, 0.712);
+  color: red;
+}
+
+
+#rselect, #xselect{
+  border: 1px solid antiquewhite;
+  background-color: rgba(250, 235, 215, 0.512);
+  margin-top: 130px;
+  float: right;
+  text-align: center;
+  width: 180px;
+  height: 185px;
+  columns: 60px;
+  margin-right: 20px;
+}
+
+.Logo {
+  float: left;
+  width: 20%;
+  height: 20%;
+  opacity: 86%;
+  }
+
+.zag {
+  text-decoration-line:underline;
+  font-family: monospace;
+  font-size: large;
+  text-align: right;
+  opacity: 70%; 
+
+}
+.Interface  {
+  float: right;
+  width: 700px;
+  height: 600px;
+}
+
+.RealInterface{
+  z-index: -99;
+  position: relative;
+  right: 20px;
+  bottom:30px;
+  float: center;
+  width: 115%;
+  height: 115%;
+  object-fit: contain;
+}
+
+#forbutton{
+  position: relative;
+  width: 500px;
+  height:20px;
+  text-align: center;
+  left: 555px;
+  top: 360px;
+}
+
+#LocalClear{
+  position: relative;
+  width: 500px;
+  height:20px;
+  text-align: center;
+  left: 555px;
+  top: 380px;
+}
+
+button{
+  background-color: rgb(117, 0, 0);
+  width: 20% !important;
+  height:50px !important;
+}
+
+#ClearButton{
+  background-color: rgb(10, 123, 136);
+}
+
+#Spike{
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 720px;
+  bottom: 100px;
+}
+
+.SpikeImage{
+  object-fit: contain;
+  position: relative;
+  z-index: -99;
+  width: 140%;
+  height: 140%;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.error{
+  background-color: solid rgb(108, 5, 5) !important;
+}
+
+
+
+

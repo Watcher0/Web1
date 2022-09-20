@@ -1,0 +1,15 @@
+
+.main, th, td{
+  color: rgba(44, 223, 106, 0.755);
+  border: 1px solid rgb(79, 241, 112);
+  width: 20%;
+}
+
+h2{
+    text-align: center;
+}
+
+.main{
+  align-content: center;
+  width: 100%;
+}
